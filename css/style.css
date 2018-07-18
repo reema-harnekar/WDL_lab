@@ -1,0 +1,67 @@
+header > nav ul
+{
+	list-style:none;
+	background-color: #3f3f3f	;
+	margin: 0;
+	text-align: center;
+
+}
+header > nav ul li > a
+{
+	 text-decoration: none;
+	 color:#fff;
+	 font-size: 18pt;
+
+}
+header > nav ul li
+{
+	display:inline-block;
+	margin-left: 20px;
+	padding:20px;	
+}
+footer 
+{
+	background-color: #3f3f3f;
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	color: #ffffff;
+	bottom: 0;
+	width: 100%;
+}
+main
+{
+	margin-top: 1%;
+}
+.myphoto
+{
+	text-align: center;
+	color: #4285F4;
+
+}
+.myphoto img
+{
+	width: 20%;
+	border: 3px solid #000000;
+	border-radius: 50%;
+}
+.contact-form,.social-media
+{
+	position: relative;
+	float: left;
+	width: 45%;
+	border:1px solid black;
+	padding: 2%;
+	border-radius: 5px;
+	margin-left: 2%
+	padding: 5%;
+
+}
+.social-media>a
+{
+	diplay: block;
+	text-decoration: none;
+	color: black;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
