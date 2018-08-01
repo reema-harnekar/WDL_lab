@@ -53,13 +53,13 @@ main
 	border:1px solid black;
 	padding: 2%;
 	border-radius: 5px;
-	margin-left: 2%
+	margin-left: 2%;
 	padding: 5%;
 
 }
 .social-media>a
 {
-	diplay: block;
+	display: block;
 	text-decoration: none;
 	color: black;
 	margin-top: 2%;
