@@ -21,4 +21,11 @@ $(function(){
            $(this).focus();
        } 
     });
+    $("#semail").on('blur',function(){
+       if(!/[a-bA-Z0-9_.]+[@]+[a-bA-Z]+[.]+[a-zA-Z]+/.test(this.value)){
+          alert("INVALID EMAIL ADRESS!!!");
+           this.value="";
+           $(this).focus();
+       } 
+    });
 });
