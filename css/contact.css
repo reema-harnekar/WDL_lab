@@ -1,0 +1,18 @@
+.contact-form,.social-media
+{
+	position: relative;
+	float: left;
+	width: 30%;
+	border:1px solid black;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 10%;
+	padding: 15px 30px;
+
+}
+.social-media>a
+{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
