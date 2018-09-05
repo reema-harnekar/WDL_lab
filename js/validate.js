@@ -42,7 +42,11 @@ function checkSubject(e):
 
 function submitForm:
 {
-
+	if(document.getElementById('user-email').value!="" && document.getElementById('message').value!="")
+	{
+		var contact = document.getElementsByClassName("contact-form");
+		contact[0].innerHTML = "<h3>Thank You!!!</h3>"
+	}
 }
 
 var email = document.getElementById('user-email');
