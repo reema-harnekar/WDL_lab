@@ -29,13 +29,13 @@
             if($_POST){
                 $username=$_POST['username'];
                 $pass=$_POST['pass'];
-                if($username=="salman" && $pass=="12345")
+                if($username=="reema" && $pass=="030614")
                 {
                     echo '<span>Login Successful! You will be redirected to home page</span>';
                     $_SESSION['user']=$username;
                     $_SESSION['college']="AIKTC";
                     $_SESSION['class']="TE";
-                    $_SESSION['batch']="B3";
+                    $_SESSION['batch']="B1";
                     header("Refresh: 3, url=index.php");
                 }
                 else{

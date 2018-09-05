@@ -3,11 +3,10 @@
 session_start();
 /*
 * Author: Muhammed Salman Shamsi
-* Created On: 30 Aug, 2016 9:55:31 AM
 */?>
 <html>
     <head>
-        <title>My Index Page</title>
+        <title>My Blog Page</title>
         
     </head>
     <body>
@@ -25,7 +24,7 @@ session_start();
                 . "<b>Batch : </b> $_SESSION[batch]<br>";
     
                 echo "<br>"
-                . "<form method='post' action='index.php'>"
+                . "<form method='post' action='blog.php'>"
                     . "<input type='hidden' name='logout' value='yes'/>" 
                     . "<input type='submit' value='Logout'/>"
                 . "</form>";
